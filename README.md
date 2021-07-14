@@ -5,7 +5,7 @@
     1. All interior angles are less than 180
     2. All sides have equal length
 
-> ![My Image](https://github.com/rsriramiyengar/EPAi3-session10-rsriramiyengar/blob/main/images/Image01.png)
+> ![My Image](https://github.com/rsriramiyengar/EPAi3-session10-rsriramiyengar/blob/master/images/Image01.png)
 
 2. For a regular strictly convex polygon with:
     * n edges (=n vertices)
