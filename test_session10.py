@@ -91,7 +91,7 @@ def test_Polygon_perimeter_9():
     assert a.perimeter == 6 * (2 * 6 * math.sin(math.pi / 6)), "wrongly calculates perimeter"
 
 
-def test_Polygon_repr_11():
+def test_Polygon_repr_10():
     """
     This Test function checks if created class checks if repr function is written properly
     """
@@ -149,28 +149,28 @@ def test_CustomPolygon_len_4():
     a = CustomPolygon(7, 6)
     assert a.__len__() ==5, "Length of list is calculated correctly"
 
-def test_CustomPolygon_max_efficiency_4():
+def test_CustomPolygon_max_efficiency_5():
     """
     This Test function checks if created class calculates max efficency correctly
     """
     a = CustomPolygon(7, 6)
     assert a.max_efficiency ==7, "Polygon with max Efficiecny not calculated correctly "
 
-def test_CustomPolygon_max_efficiency_n_25_5():
+def test_CustomPolygon_max_efficiency_n_25_6():
     """
     This Test function checks if created class checks if len function is written properly
     """
     a = CustomPolygon(25, 6)
     assert a.max_efficiency ==25, "Polygon with max Efficiency not calculated correctly "
 
-def test_CustomPolygon_getitem_6():
+def test_CustomPolygon_getitem_7():
     """
     This Test function checks if created class checks if getitem function is written properly
     """
     a = CustomPolygon(25, 10)
     assert isclose(a.__getitem__(7), 4.504844339512096), "Polygon with max Efficiency not calculated correctly "
 
-def test_CustomPolygon_getitem_n_eq_3_7():
+def test_CustomPolygon_getitem_n_eq_3_8():
     """
     This Test function checks if created class checks if len function is written properly
     """
