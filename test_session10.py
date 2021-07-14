@@ -3,9 +3,10 @@ import random
 import string
 import pytest
 
-import session10
-from session10 import Polygon
-from session10 import CustomPolygon
+import Polygon
+import CustomPolygon
+from Polygon import Polygon
+from CustomPolygon import CustomPolygon
 import os
 import inspect
 import re
