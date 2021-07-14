@@ -1,21 +1,13 @@
 import pytest
-import random
-import string
-import pytest
+
 
 import Polygon
 import CustomPolygon
 from Polygon import Polygon
 from CustomPolygon import CustomPolygon
-import os
-import inspect
-import re
 import math
 from math import isclose
-import random
-import decimal
-from decimal import Decimal
-import time
+
 
 
 def test_Polygon_edges_1():
