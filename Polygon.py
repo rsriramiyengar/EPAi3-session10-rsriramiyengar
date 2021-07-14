@@ -10,7 +10,7 @@ class Polygon:
                 circum_radius : Circum radius of polygon
     """
 
-    def __init__(self, number_edges : '+ve integer', circum_radius : '+ve value '):
+    def __init__(self, number_edges, circum_radius):
         self.edges = number_edges
         self.circum_rad = circum_radius
 
