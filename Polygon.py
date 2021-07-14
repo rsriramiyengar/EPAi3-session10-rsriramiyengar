@@ -26,7 +26,7 @@ class Polygon:
         if number_edges < 3:
             raise ValueError("Minimum number of edges required to form a polygon is 3")
         elif type(number_edges) != int:
-            print(f'Number of Edges cannot be non interger only interger part taken Edges={int(number_edges)}')
+            print(f"Number of Edges cannot be non interger only interger part taken Edges={int(number_edges)}")
             self._number_edges = int(number_edges)
         else:
             self._number_edges = number_edges
